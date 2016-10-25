@@ -1,0 +1,267 @@
+.fare_amt {
+  height: 30px !important;
+  padding: 5px 3px !important;
+  width: 70% !important;
+}
+.fare_amt_money {
+  padding: 5px !important;
+}
+.fare_amt_table td, .fare_amt_table tr, .fare_amt_table th {
+  border: 1px solid #eee !important;
+}
+.btn_disabled {
+/*background-color: #ccc !important;*/
+}
+.btn_delete {
+  padding-top: 0px !important;
+  color: #F44336;
+  font-size: 20px;
+}
+.state_name {
+  font-weight: bold;
+  font-style: italic;
+}
+.input_field_text {
+  float: left;
+  margin-right: 10px;
+  width: 90%;
+}
+.form-group {
+  clear: both;
+  margin-bottom: 15px;
+  overflow: hidden;
+}
+#stoppage_city_list .list-group-item {
+  border: 1px solid #eee !important;
+  border-radius: 2px !important;
+  margin-bottom: 3px !important;
+  padding: 5px !important;
+}
+#sortable_stoppage .list-group-item {
+  cursor: move;
+  border: 1px solid #eee !important;
+  clear: both;
+  border-radius: 2px !important;
+  padding: 5px !important;
+}
+#stoppage_city_list span.imd, span.imd-add {
+  color:  #00BCD4;
+}
+#stoppage_city_list a.list-group-item:focus, #stoppage_city_list a.list-group-item:hover {
+  text-decoration: none;
+  color: #555;
+  background-color: #C5F1FA;
+}
+.ui-select .stoppage_city_list_outer {
+  -moz-appearance: none;
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0);
+  border: medium none;
+  display: block;
+  font-size: 11px;
+  font-weight: 700;
+  min-width: 235px;
+  outline: 0 none;
+  padding: 15px;
+  position: relative;
+  text-indent: 0.01px;
+  text-overflow: "";
+  text-transform: uppercase;
+  width: 120%;
+  z-index: 99;
+}
+.stoppage_container {
+  border: 1px solid #CCCCCC;
+  display: block;
+  margin-left: 3px;
+  padding: 5px;
+  width: 97%;
+}
+.bus_add_more {
+  background: #3f51b5 !important;
+  color: #fff !important;
+  border-radius: 50%;
+}
+.bus_remove_more {
+  background: #F44336 !important;
+  color: #fff !important;
+  border-radius: 50%;
+}
+
+.bus_image_preview {
+    border-radius: 50%;
+    cursor: pointer;
+    height: 40px;
+    width: 40px;
+  }
+
+/*Custom Design-------------------------------------------------------------------*/
+
+.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+  padding:5px;
+}
+.filter_section .ui-select {
+  width: 100%;
+}
+.filter_section .form-control.input_field_text {
+  width: 100%;
+}
+.filter_section {
+  border-bottom: 1px solid #ccc;
+  margin: 0 0 30px;
+  padding-bottom: 20px;
+}
+#submit, #update {
+  margin-top: 25px;
+}
+#example_wrapper {
+  background: #00bcd4;
+  border: 1px solid #dddddd;
+  margin: 10px;
+}
+table { background: #fff;}
+thead th, tfoot th {
+  color: #00bcd4;
+}
+#example_length, #example_filter, #example_info, #example_paginate {
+  padding: 10px;
+}
+.edit_btn, .blue_bg {
+  background: #3f51b5 !important;
+  color: #fff !important;
+}
+.edit_btn:hover, .edit_btn:active, .edit_btn:focus, #btn_save:hover, #btn_save:focus, .blue_bg:hover, .blue_bg:focus { /*background:#fff !important; color:#3f51b5 !important;*/
+}
+.delete_btn {
+  background:#f44336 !important;
+  color:#fff !important;
+}
+/*.delete_btn:hover {
+  color:#f44336 !important;
+  background:#fff !important;
+}*/
+.edit_btn, .delete_btn {
+  border-radius: 3px;
+  color: #fff !important;
+  padding: 5px 7px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+  display: inline-block;
+  border:none;
+  transition:all 0.5s ease 0s;
+}
+table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
+  border-right: 1px solid #ddd;
+}
+table tr:first-child th {
+  border: 1px solid #ddd;
+}
+ul.parsley-errors-list.filled {
+  color: #f44336;
+  list-style: none;
+  padding: 0px;
+}
+.fare_amt_table td {
+  min-width: 100px;
+}
+#example_filter input[type="search"] {
+  background-color: #FFFFFF;
+  background-image: none;
+  border: 1px solid #CBD5DD;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  color: #767676;
+  height: 38px;
+  padding: 8px 12px;
+  transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+}
+#example_filter input[type="search"]:focus {
+  border-color: #3F51B5;
+}
+.add_btn .blue_bg {
+  margin: 10px;
+}
+.label_dropdown .ui-select {
+  margin:6px 0 0;
+  border:none;
+  border-bottom:solid 1px #cbd5dd;
+  width:100%;
+}
+.label_dropdown label {
+  color: #999;
+  font-size: 12px;
+  font-weight: 400;
+}
+.label_dropdown .ui-select::after {
+  right:1%;
+}
+.label_dropdown .ui-select select {
+  padding: 0;
+  width:100%;
+}
+.label_dropdown .ui-select select option {
+  margin: 5px 0;
+}
+.upload_image {
+  background: #4caf50 none repeat scroll 0 0;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.26);
+  color: #fff;
+  height: 35px;
+  line-height: 0;
+  width: 150px;
+  text-transform:uppercase;
+  transition:all 0.5s ease 0s;
+  margin-bottom:20px;
+}
+.upload_image:hover {
+  background:#13a019;
+  box-shadow:0 2px 5px rgba(0, 0, 0, 0.4);
+}
+.upload_image input {
+  cursor: pointer;
+  direction: ltr;
+  font-size: 23px;
+  margin: 0;
+  opacity: 0;
+  width:100%;
+  height:100%;
+}
+.upload_image > span {
+  display: block;
+  position: relative;
+  text-align: center;
+  top: 20px;
+}
+
+.bus_helper{
+   color: #B3B3B3;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.dataTables_paginate a {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  border-color: #fff -moz-use-text-color #fff #fff;
+  border-image: none;
+  border-style: solid none solid solid;
+  border-width: 1px medium 1px 1px;
+  color: #fff;
+  opacity: 0.35;
+  padding: 3px;
+  cursor:pointer;
+}
+.dataTables_paginate a:hover { text-decoration:none; }
+.dataTables_paginate a:last-child {
+  border-bottom-right-radius: 3px;
+  border-right: 1px solid #fff;
+  border-top-right-radius: 3px;
+}
+.dataTables_paginate a:first-child {
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+}
+table.dataTable thead th:last-child {
+  background: none;
+}

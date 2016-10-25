@@ -1,0 +1,435 @@
+.custom_lable
+{
+	margin-bottom: 0;width:20%;font-size: 15px;
+    text-align: right;
+}
+
+
+.custom_span
+{
+	margin-bottom: 0;width:20%;font-size: 16px;
+}
+
+.breadcum_container
+{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.breadcum_section
+{
+  padding-left: 15px;
+  padding-bottom: 5px;
+  margin-top: -5px;
+}
+
+
+.langselect
+{
+  display: block !important;
+  list-style: none;
+  padding-right: 45px;
+}
+
+.langselect li
+{
+  display: inline;
+}
+
+.langselect li a
+{
+  padding-left: 30px !important;
+}
+
+
+#bus_time_matrix .form-control
+{
+  height: 34px !important;
+  border: 1px solid #eee;
+}
+
+#bus_time_matrix select.form-control
+{
+  height: 25px !important;
+  margin: 0;
+  padding: 0;
+  width: 60px;
+  -moz-appearance: resizerpanel;
+}
+
+#bus_time_matrix .input-group-addon
+{
+  padding: 3px !important;
+}
+
+#bus_time_matrix .input-group
+{
+  padding-bottom: 10px !important;
+  padding-top: 10px !important;
+}
+
+.ui-datepicker-title
+{
+  color: #3F51B5 !important;
+}
+
+.side_submenu
+{
+  padding-left:11%;
+}
+
+#bus_status_for_date
+{
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+  color: #999999;
+  float: right;
+  font-size: 14px;
+  margin-right: 0;
+  padding: 3px 0 3px 3px;
+  height: 26px;
+}
+
+#today_buses_list thead th, #today_buses_list tfoot th
+{
+  color: #3B799A !important;
+  /*font-family: sans-serif !important;
+  text-align: center;*/
+}
+
+#buses_status_list thead th, #buses_status_list tfoot th
+{
+  color: #687F42 !important;  
+  /*font-family: sans-serif !important;
+  text-align: center;*/
+}
+
+#bus_yearly_list thead th, #bus_yearly_list tfoot th
+{
+  color: #9A7E26 !important;  
+  /*font-family: sans-serif !important;
+  text-align: center;*/
+}
+
+
+
+#today_buses_list > tbody > tr > td, #today_buses_list > tbody > tr > th, #today_buses_list > tfoot > tr > td, #today_buses_list > tfoot > tr > th, #today_buses_list > thead > tr > td, #today_buses_list > thead > tr > th
+{
+  padding: 9px !important;
+  font-size: 14px !important;
+}
+
+#buses_status_list > tbody > tr > td, #buses_status_list > tbody > tr > th, #buses_status_list > tfoot > tr > td, #buses_status_list > tfoot > tr > th, #buses_status_list > thead > tr > td, #buses_status_list > thead > tr > th
+{
+  padding: 9px !important;
+  font-size: 14px !important;
+}
+
+
+#bus_yearly_list > tbody > tr > td, #bus_yearly_list > tbody > tr > th, #bus_yearly_list > tfoot > tr > td, #bus_yearly_list > tfoot > tr > th, #bus_yearly_list > thead > tr > td, #bus_yearly_list > thead > tr > th
+{
+  padding: 5px !important;
+  font-size: 14px !important;
+}
+
+
+
+.help_txt
+{
+  color: #999;
+  font-size: 9px;
+  text-transform: uppercase;
+}
+
+
+.green_count
+{
+  color:#4CAF50;
+}
+
+.blue_count
+{
+  color:#3F51B5;
+}
+
+.lightblue_count
+{
+  color:#00BCD4;
+}
+
+.orange_count
+{
+  color:#FFC107;
+}
+
+.red_count
+{
+  color:#F44336;
+}
+
+.nav-tabs li
+{
+  width: 15% !important;
+}
+
+#bus_time_matrix .nav-tabs, #fare_details .nav-tabs
+{
+  background-color: #00BCD4 !important;
+} 
+
+#bus_time_matrix .nav-tabs li a, #fare_details .nav-tabs li a
+{
+  color: #6F81C8 !important;
+}
+
+.ui-tab-horizontal 
+{
+    border: 1px solid #00BCD4 !important;
+    border-radius: 2px;
+}
+
+.box-info .size-h2
+{
+  color: #767676 !important; 
+}
+
+.box-info .text-muted
+{
+  color: #767676 !important;
+  text-transform: uppercase;
+  font-size: 11px; 
+}
+
+.from_help_text
+{
+  color: #0099B0 !important;
+}
+
+.to_help_text
+{
+  color: #B3970B !important;
+}
+
+#bus_status_panel .panel-heading
+{
+  /*border-color: #D9E4CC !important;
+  background-color: #D9E4CC !important;*/
+}
+
+.pass_subtotal 
+{
+  background-color: #aaa !important;
+  color: #0099B0 !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+.amt_subtotal 
+{
+  background-color: #aaa !important;
+  color: #fff !important;
+  font-weight: bold;
+  text-align: center;
+}
+
+.bus_time_display table tbody tr td
+{
+  font-size: 12px !important;
+}
+
+
+/*Tab plus buttons on Bus----------------------*/
+.nav-tabs span.plus_link
+{
+  background-color: #00BCD4;
+  border-radius: 50%;
+  color: #FFFFFF;
+  cursor: pointer;
+  float: right;
+  padding-left: 4px;
+  position: absolute;
+  right: 10px !important;
+  top: 15px;
+  width: 15px;
+}
+
+.plus_link a
+{
+  color: #fff !important;
+}
+
+
+/*Quick Links----------------------*/
+.quick_links_menu
+{
+  background-color: #FFFFFF;
+    border: 1px solid #00BCD4;
+    border-radius: 5px;
+    box-shadow: 2px 2px 0 0 #00BCD4;
+    display: none;
+    left: 77%;
+    padding: 10px;
+    position: absolute;
+    top: 5%;
+    width: 250px;
+    z-index: 9999;
+}
+
+.quick_links_menu .headrow
+{
+  background-color: #00BCD4;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 12px;
+    height: 33px;
+    padding: 5px;
+}
+
+.quick_links_menu .contentrow
+{
+  height: 50px;
+}
+
+/*Help popup*/
+.help_box
+{
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+/*Sidebar menu selection*/
+#nav .active
+{
+  background-color: #EAEAEA !important;  
+}
+
+#nav .active > a
+{
+  color: #252833 !important;  
+}
+
+#nav li.ui-wave > a
+{
+  color: #aaa;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Edit and Delete title popup */
+.delete_tooltip , .edit_tooltip {
+    position:absolute;
+    z-index:999;
+    left:-9999px;
+    padding:5px;
+    width: 220px;
+}
+
+.delete_tooltip p , .edit_tooltip p
+{
+
+background: #222 none repeat scroll 0 0;
+    border-radius: 0;
+    color: #fff;
+    height: auto;
+    padding: 7px;
+    position: absolute;
+    text-align: center;
+}
+
+.delete_tooltip p:after , .edit_tooltip p:after
+{
+content: '';
+position: absolute;
+border-style: solid;
+border-width: 5px 5px 0;
+border-color: #222 transparent;
+display: block;
+width: 0;
+z-index: 1;
+bottom: -4px;
+left: 0px;
+right: 0px;
+margin: auto;
+}
+
+
+/*Dashboard Page*/
+
+.dash-buses .box-info p, .dash-routes .box-info p, .dash-staffs .box-info p, .dash-device .box-info p { color: #fff !important;}
+.dash-buses { background: #F44336;}
+.dash-buses span { background-color: #ED6659;}
+
+.dash-routes { background: #FFC107;}
+.dash-routes span { background-color: #FDD122;}
+
+.dash-staffs { background: #4CAF50;}
+.dash-staffs span { background: #5FC263;}
+
+.dash-device { background: #00BCD4;}
+.dash-device span {background-color: #1BC9E1;}
+
+.dash-buses, .dash-routes, .dash-staffs, .dash-device {
+  border-radius: 80px;
+  padding: 30px 20px;
+  transition: all 0.5s ease 0s;
+  -webkit-transition: all 0.5s ease 0s;
+  -ms-transition: all 0.5s ease 0s;
+  -o-transition: all 0.5s ease 0s;
+}
+.dash-buses:hover span { background: #f44336;}
+.dash-buses:hover .box-info p { color: #f44336 !important;}
+
+.dash-routes:hover span { background: #ffc107;}
+.dash-routes:hover .box-info p { color: #ffc107 !important;}
+
+.dash-staffs:hover span { background: #4caf50;}
+.dash-staffs:hover .box-info p { color: #4caf50 !important;}
+
+.dash-device:hover span { background: #00BCD4;}
+.dash-device:hover .box-info p { color: #00BCD4 !important;}
+
+.dash-buses:hover, .dash-routes:hover, .dash-staffs:hover, .dash-device:hover {
+  box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  background:#fff;
+}
+.dash-list { margin: 15px 0;}
+.panel-info > .panel-heading {
+  background-color: #7AB8D9;
+  border-color: #C5F1FA;
+  color: #fff;
+}
+.panel-success > .panel-heading {
+  background-color: #99B073;
+  border-color: #EBF8CD;
+  color: #fff;
+}
+.panel-warning > .panel-heading {
+  background-color: #CCB058;
+  border-color: #FFECD4;
+  color: #fff;
+}
+
+#bus_year
+{
+  color: #CCB058 !important;
+}
+/** css for bus status popup **/
+.modal-body.bus-img {
+  position: relative;
+}
+.bus-img img {
+  width: 100%;
+}
+.bus-img p {
+  background: none repeat scroll 0 0 rgba(0, 0, 0, 0.698);
+    bottom: 0;
+    color: #FFFFFF;
+    margin: 0 -15px;
+    max-height: 70px;
+    overflow-x: auto;
+    padding: 10px;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
